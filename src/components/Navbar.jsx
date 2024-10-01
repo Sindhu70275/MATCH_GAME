@@ -33,7 +33,10 @@ const Navbar = ({ score, secondsLeft }) => {
                 <img
                   src="https://assets.ccbp.in/frontend/react-js/match-game-website-logo.png"
                   alt="website logo"
-                  style={{ width: "160px", height: "auto" }}
+                  style={{
+                    width: window.innerWidth < 375 ? "100px" : "160px",
+                    height: "auto", 
+                  }}
                 />
               </Box>
               <Box
