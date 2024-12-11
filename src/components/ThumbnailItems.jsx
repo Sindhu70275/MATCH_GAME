@@ -6,7 +6,7 @@ import Grid from "@mui/material/Grid";
 
 const ThumbnailItems = ({ items, handleThumbnailClick }) => {
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={2} justifyContent="center">
       {items.map((item) => (
         <Grid
           item
