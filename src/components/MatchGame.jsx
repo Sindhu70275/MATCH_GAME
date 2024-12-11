@@ -59,7 +59,7 @@ const MatchGame = () => {
     }, 1000);
 
     return () => {
-      clearInterval(intervalId); 
+      clearInterval(intervalId);
     };
   }, [isGameOver]);
 
@@ -78,8 +78,8 @@ const MatchGame = () => {
       ) : (
         <>
           <Navbar score={score} secondsLeft={secondsLeft} />
-          <Box sx={{ paddingTop: { xs: "6rem", sm: "8rem" },}}>
-            <Container maxWidth="md">
+          <Box sx={{ paddingTop: { xs: "6rem", sm: "8rem" } }}>
+            <Container>
               <Grid container justifyContent="center">
                 <CardMedia
                   component="img"

@@ -14,7 +14,6 @@ const GameOver = ({ score, handlePlayAgain }) => {
     <Box
       sx={{
         width: "100%",
-        height: "100vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -30,6 +29,7 @@ const GameOver = ({ score, handlePlayAgain }) => {
           backgroundPosition: "center",
           width: { xs: "250px", md: "500px" },
           height: { xs: "400px", md: "620px" },
+          margin: { xs: "2rem", md: "5rem" },
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
